@@ -1,0 +1,23 @@
+{
+  "modelVersion": "1.0",
+  "projectName": "MainSystem",
+  "platform": "platform",
+  "externalComponentRefs": [
+    "R5c0_App"
+  ],
+  "components": [],
+  "buildConfigurations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "supportedTargets": [
+        "HW_EMU",
+        "HW"
+      ]
+    }
+  ],
+  "activeBuildConfigId": "default",
+  "hostMode": "x86",
+  "isDirty": true,
+  "applicationFlow": "EMBEDDED"
+}
