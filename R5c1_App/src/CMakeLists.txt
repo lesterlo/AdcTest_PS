@@ -4,19 +4,12 @@ cmake_minimum_required(VERSION 3.16)
 
 include(${CMAKE_SOURCE_DIR}/Empty_applicationExample.cmake)
 include(${CMAKE_CURRENT_SOURCE_DIR}/UserConfig.cmake)
-set(APP_NAME R5c0_App)
+set(APP_NAME R5c1_App)
 project(${APP_NAME})
 
 find_package(common)
 enable_language(C ASM CXX)
 collect(PROJECT_LIB_DEPS xilstandalone;xiltimer;openamp;metal;freertos;m)
-
-
-
-
-
-
-
 
 
 collect(PROJECT_LIB_DEPS xil)
